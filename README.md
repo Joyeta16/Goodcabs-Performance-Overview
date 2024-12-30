@@ -1,6 +1,6 @@
 # GoodCabs: Transportation Performance Analysis
 
-Company Overview
+## Company Overview
 
 Sales and Financial Analytics of AtliQ Hardware
 Project Overview
