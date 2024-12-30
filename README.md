@@ -1,9 +1,16 @@
 # GoodCabs: Transportation Performance Analysis
 
 ## Company Overview
-Goodcabs, established two years ago, has quickly emerged as a leading cab service provider in India's tier-II cities. Setting itself apart from traditional competitors, Goodcabs is driven by a mission to empower local drivers, enabling them to build sustainable livelihoods within their communities while ensuring passengers receive exceptional service. With operations spanning 10 tier-II cities, Goodcabs combines a community-centric approach with a commitment to delivering a seamless travel experience. As the company looks to the future, its ambitious 2024 performance goals reflect a focus on growth, innovation, and enhanced passenger satisfaction, solidifying its role as a trusted mobility partner in emerging markets.
+
+GoodCabs, established two years ago, has quickly become a leading cab service provider in India's tier-II cities. Unlike traditional competitors, GoodCabs is driven by a mission to empower local drivers, helping them build sustainable livelihoods within their communities while providing passengers with exceptional service. Operating across 10 tier-II cities, GoodCabs combines a community-focused approach with a commitment to delivering a seamless travel experience. It aims to solidify its position as a trusted mobility partner in underserved markets.
+
+
+
+
 
 ## Problem Statement
+Goodcabs has been operating in tier-2 cities for two years, but it is still far from reaching its market penetration goals. Despite establishing a solid presence in these areas, the company is struggling to meet its ambitious 2024 targets. 
+To overcome this challenge, Goodcabs needs an in-depth analysis of key performance metrics—such as trip volume, passenger satisfaction, retention rates, trip distribution, and the balance between new and repeat passengers. This analysis will help identify critical growth opportunities and resolve operational inefficiencies that are hindering progress.
 
 ## Project Objective
 
