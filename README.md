@@ -1,7 +1,7 @@
 # GoodCabs: Transportation Performance Analysis
 
-![image](https://github.com/user-attachments/assets/dce97ffb-6acc-47ea-9950-7a4b91a9dc80)
-## Company Overview
+
+![overview (1) (1)](https://github.com/user-attachments/assets/e18f4f14-fcae-4abb-94c6-92576e631fe5) ## Company Overview
 
 
 GoodCabs, established two years ago, has quickly become a leading cab service provider in India's tier-II cities. Unlike traditional competitors, GoodCabs is driven by a mission to empower local drivers, helping them build sustainable livelihoods within their communities while providing passengers with exceptional service. Operating across 10 tier-II cities, GoodCabs combines a community-focused approach with a commitment to delivering a seamless travel experience. It aims to solidify its position as a trusted mobility partner in underserved markets.
