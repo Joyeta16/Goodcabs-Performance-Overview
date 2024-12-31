@@ -48,6 +48,8 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 
 ## 📑 Report Inclusions
 
+- [Ad-hoc Business Requests](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Ad-hoc%20Business_requests.sql)
+
 ## 💡 Features and Insights
 
 ## 📝 Recommendations
