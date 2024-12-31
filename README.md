@@ -1,4 +1,4 @@
-# GoodCabs: Transportation Performance Analysis
+# 🚖 GoodCabs: Transportation Performance Analysis
 
 
 ## ![overview (1) (2)](https://github.com/user-attachments/assets/e81fcb5d-dffa-4698-be85-84ce874ceb84) Company Overview
@@ -29,7 +29,22 @@ The dataset spans from January 1, 2024, to June 30, 2024.
 It is fully accessible on the Codebasics website and can be viewed via the following link:  
 https://codebasics.io/challenge/codebasics-resume-project-challenge
 
-## 🛠️ Tools and Technologies
+## 🛠️ Tools
+
+- Data Visualization: Power BI
+- Data Analysis : MySQL, DAX
+
+## 🧹️ Data Cleaning & Transformation:
+
+- Used Power Query to clean and transform raw data.  
+- Removed duplicates and unnecessary columns.  
+- Applied the TRIM function to eliminate leading and trailing spaces.  
+- Added conditional columns where necessary.  
+- Created a dim_month table with unique months and their start dates.  
+- Generated two additional tables in Power BI for filtering purposes:  
+  - passenger_type: Contains a single column for passenger type (new/repeated).  
+  - Set BM: Includes two columns—Benchmarks (vs Previous month/vs Target) and IDs.
+
 
 ## 📑 Report Inclusions
 
