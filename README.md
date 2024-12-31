@@ -26,7 +26,6 @@ The two databases are as follows:
 The dataset spans from January 1, 2024, to June 30, 2024.
 
 It is fully accessible on the Codebasics website and can be viewed via the following link:
-
 https://codebasics.io/challenge/codebasics-resume-project-challenge
 
 ## 🛠️ Tools and Technologies
