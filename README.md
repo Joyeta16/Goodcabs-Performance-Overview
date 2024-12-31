@@ -13,9 +13,7 @@ To overcome this challenge, Goodcabs needs an in-depth analysis of key performan
 
 ## 🎯 Project Objective
 
-## 🗃️ Data Overview
-
-## 🗂️ Data Overview
+## 🛢 Data Overview
 
 ## 🛠️ Tools and Technologies
 
