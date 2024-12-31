@@ -22,7 +22,7 @@ Received two SQL databases and eight CSV files for analysis. However, I primaril
 The two databases are as follows:
 
 1. trips_db: Contains fact tables (fact_trips, fact_passenger_summary) and dimension tables (dim_date, dim_city, dim_repeat_trip_distribution).
-2. targets_db: Contains city- and month-specific target tables (monthly_target_trips, monthly_target_new_passengers, city_target_passenger_rating).
+2. targets_db: Contains city- and month-specific target tables (monthly_target_trips, monthly_target_new_passengers, city_target_passenger_rating).  
 The dataset spans from January 1, 2024, to June 30, 2024.
 
 It is fully accessible on the Codebasics website and can be viewed via the following link:  
