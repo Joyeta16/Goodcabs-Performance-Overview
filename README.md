@@ -53,7 +53,7 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 - [Finance View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Finance_view.png)
 - [Sales View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Sales_view.png)
 - [Marketing View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Marketing_view.png)
-- [Operations View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Operational_view.png)
+- [Operations View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Operations_view.png)
 - [Executive View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Executive_view.png)
 
 ## 💡 Features and Insights
