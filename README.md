@@ -7,12 +7,12 @@ GoodCabs, an imaginary company established two years ago, has quickly become a l
 
 ## 🔎 Problem Statement
 
-Goodcabs has been operating in tier-II cities for two years, but it is still far from reaching its market penetration goals. Despite establishing a solid presence in these areas, the company is struggling to meet its ambitious 2024 targets. 
-To overcome this challenge, Goodcabs needs an in-depth analysis of key performance metrics—such as trip volume, passenger satisfaction, retention rates, trip distribution, and the balance between new and repeat passengers. This analysis will help identify critical growth opportunities and resolve operational inefficiencies that are hindering progress.
+Goodcabs has been operating in tier-II cities for two years, but it is still far from reaching its market penetration goals. Despite establishing a solid presence in these areas, the company is struggling to meet its ambitious 2024 targets.  
+To overcome this challenge, Goodcabs needs an in-depth analysis of key performance metrics. This analysis will help identify critical growth opportunities and resolve operational inefficiencies that are hindering progress.
 
 ## 🎯 Project Objective
 
-The objective of this project is to conduct a comprehensive analysis of Goodcabs' performance across key metrics—such as trip volume, passenger satisfaction, retention rates, trip distribution, and the balance between new and repeat passengers. By evaluating these metrics, the project aims to identify critical growth opportunities, address operational inefficiencies, and provide actionable insights to help Goodcabs achieve its market penetration goals and meet its ambitious targets for 2024.
+The objective of this project is to conduct a comprehensive analysis of Goodcabs' performance across key metrics—such as trip volume, passenger satisfaction, retention rates, trip distribution, and the balance between new and repeat passengers. By evaluating these metrics, the project aims to identify critical growth opportunities, address operational inefficiencies, and provide actionable insights to help Goodcabs achieve its market penetration goals and meet its ambitious targets for 2024.  
 The insights from this analysis will support strategic decision-making and drive the company’s growth in tier-2 cities.
 
 ## 🛢 Data Overview
