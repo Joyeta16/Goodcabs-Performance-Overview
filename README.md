@@ -49,6 +49,12 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 ## 📑 Report Inclusions
 
 - [Ad-hoc Business Requests](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Ad-hoc%20Business_requests.sql)
+- [Landing Page](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Landing_page.png)
+- [Finance View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Finance_view.png)
+- [Sales View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Sales_view.png)
+- [Marketing View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Marketing_view.png)
+- [Operations View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Operational_view.png)
+- [Executive View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Executive_view.png)
 
 ## 💡 Features and Insights
 
