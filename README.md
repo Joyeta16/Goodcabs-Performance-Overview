@@ -132,6 +132,10 @@ For the full interactive experience, please contact me to request access to the 
 - Track market trends and event-based demand to anticipate surges and avoid shortages during peak times.
 - Use this data to optimize resource allocation, ensuring a balanced supply-demand ratio.
 
+### Data Collection:
+
+- Collect additional data, including customer profiling, driver and vehicle performance metrics, wait time and pickup time, competitor pricing and offers, and event and tourism data, to support more accurate and enhanced analysis.
+
 ## 🧠 Skills Gained
 
 - Enhanced understanding of business metrics and their impact on performance.
