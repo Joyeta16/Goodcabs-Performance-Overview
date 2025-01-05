@@ -51,9 +51,11 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 - [Ad-hoc Business Requests](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Ad-hoc%20Business_requests.sql)
 - [Goodcabs Detailed Analysis Presentation](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/RPC13%20GoodCabs_ppt.pptx)
 
-### Power BI Report Overview  
+### Power BI Report and Data Model Overview  
 
-This repository showcases a Power BI report hosted on the Power BI Service. Below are screenshots of the report for a quick preview:  
+This repository showcases a Power BI report hosted on the Power BI Service, along with its underlying data model. Below are screenshots of the report and the data model for a quick preview:  
+
+- [Data Model]
 - [Landing Page](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Landing_page.png)
 - [Finance View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Finance_view.png)
 - [Sales View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Sales_view.png)
