@@ -49,6 +49,7 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 ## 📑 Report Inclusions
 
 - [Ad-hoc Business Requests](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Ad-hoc%20Business_requests.sql)
+- [Goodcabs Detailed Analysis Presentation](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/RPC13%20GoodCabs_ppt.pptx)
 
 ### Power BI Report Overview  
 
@@ -137,3 +138,4 @@ For the full interactive experience, please contact me to request access to the 
 - Created insightful, user-centric Power BI dashboards.
 - Learned the art of storytelling with data.
 - Gained knowledge in the transportation and mobility domain, focusing on Mobility as a Service (MaaS) and operational functions.
+---
