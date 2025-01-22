@@ -32,7 +32,7 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 ## 🛠️ Tools
 
 - Data Visualization: Power BI
-- Data Analysis : MySQL, DAX
+- Data Analysis: MySQL, DAX
 
 ## 🧹️ Data Cleaning & Transformation:
 
