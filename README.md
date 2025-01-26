@@ -53,15 +53,10 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 
 ### Power BI Report and Data Model Overview  
 
-This repository showcases a Power BI report hosted on the Power BI Service, along with its underlying data model. Below are screenshots of the report and the data model for a quick preview:  
+This repository showcases a Power BI report hosted on the Power BI Service, along with its underlying data model. Below is a screenshot of the data model and a PDF of the report for a quick preview:  
 
 - [Data Model](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Data_Modeling.png)
-- [Landing Page](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Landing_page.png)
-- [Finance View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Finance_view.png)
-- [Sales View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Sales_view.png)
-- [Marketing View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Marketing_view.png)
-- [Operations View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Operations_view.png)
-- [Executive View](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Executive_view.png)
+- [Goodcabs Dashboard](https://github.com/Joyeta16/Goodcabs-Performance-Overview/blob/main/Goodcabs%20Dashboard.pdf)
 
 For the full interactive experience, please contact me to request access to the report on Power BI Service.
 
