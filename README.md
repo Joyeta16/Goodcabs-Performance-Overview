@@ -133,6 +133,12 @@ For the full interactive experience, please contact me to request access to the 
 
 - Collect additional data, including customer profiling, driver and vehicle performance metrics, wait time and pickup time, competitor pricing and offers, and event and tourism data, to support more accurate and enhanced analysis.
 
+## 📎 Links
+
+🌐 [Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:7281702825435316224/)  
+📊 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzlmNDdiYTEtYjZlNi00Y2MyLTlmN2QtMmYzYzlhMDBlMDcxIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)  
+🖥️ [Presentation](https://youtu.be/ezo-pXsvnU8)
+
 ## 🧠 Skills Gained
 
 - Enhanced understanding of business metrics and their impact on performance.
