@@ -7,7 +7,7 @@ trip count.
   Fields:
 
     city_name
-    tota|_trips
+    total_trips
     avg_fare_per_km
     avg_fare_per_trip
     %_contribution_to_total_trips */
