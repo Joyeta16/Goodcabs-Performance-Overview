@@ -18,20 +18,20 @@ SELECT
   dim_city.city_name,
     COUNT(fact_trips.trip_id) AS total_trips,
     CASE
-        WHEN COALESCE(SUM(fact_trips.distance_travelled_km), 0) > 0 THEN 
-            ROUND(COALESCE(SUM(fact_trips.fare_amount),0) / COALESCE(SUM(fact_trips.distance_travelled_km), 0), 2)
+        WHEN SUM(fact_trips.distance_travelled_km) > 0 THEN 
+            ROUND(SUM(fact_trips.fare_amount) / SUM(fact_trips.distance_travelled_km), 2)
         ELSE 
             NULL
   END AS avg_fare_per_km,
     CASE
-        WHEN COALESCE(COUNT(fact_trips.trip_id), 0) > 0 THEN 
-            ROUND(COALESCE(SUM(fact_trips.fare_amount),0) / COALESCE(COUNT(fact_trips.trip_id), 0),2)
+        WHEN COUNT(fact_trips.trip_id) > 0 THEN 
+            ROUND(SUM(fact_trips.fare_amount) / COUNT(fact_trips.trip_id),2)
         ELSE 
             NULL
   END AS avg_fare_per_trip,
     CASE
-        WHEN COALESCE((SELECT COUNT(fact_trips.trip_id) FROM trips_db.fact_trips), 0) > 0 THEN 
-            ROUND(COALESCE(COUNT(fact_trips.trip_id), 0) * 100 / COALESCE((SELECT COUNT(fact_trips.trip_id) FROM trips_db.fact_trips), 0), 2)
+        WHEN COUNT(fact_trips.trip_id) > 0 THEN 
+            ROUND(COUNT(fact_trips.trip_id) * 100 / (SELECT COUNT(fact_trips.trip_id) FROM trips_db.fact_trips), 2)
         ELSE 
             NULL
   END AS percentage_contribution_to_total_trips
@@ -89,15 +89,15 @@ dim_date_monthly AS
 SELECT
   dim_city.city_name,
     dim_date_monthly.month_name,
-    COALESCE(trips_actual.actual_trips, 0) AS actual_trips,
-    COALESCE(trip_targets.total_target_trips, 0) AS target_trips,
+    IFNULL(trips_actual.actual_trips, 0) AS actual_trips,
+    IFNULL(trip_targets.total_target_trips, 0) AS target_trips,
     CASE
-    WHEN COALESCE(trips_actual.actual_trips, 0) > COALESCE(trip_targets.total_target_trips, 0) THEN "Above Target"
+    WHEN IFNULL(trips_actual.actual_trips, 0) > IFNULL(trip_targets.total_target_trips, 0) THEN "Above Target"
         ELSE "Below Target" 
   END AS performance_status,
     CASE
-        WHEN COALESCE(trip_targets.total_target_trips, 0) > 0 THEN 
-           ROUND((COALESCE(trips_actual.actual_trips,0) - COALESCE(trip_targets.total_target_trips,0))* 100 / COALESCE(trip_targets.total_target_trips, 0), 2)
+        WHEN trip_targets.total_target_trips > 0 THEN 
+           ROUND((trips_actual.actual_trips - trip_targets.total_target_trips)* 100 / trip_targets.total_target_trips, 2)
         ELSE 
             NULL
     END AS percentage_difference
@@ -162,15 +162,15 @@ total_trips AS (
         
 SELECT
   dim_city.city_name,
-    ROUND((COALESCE(trips.two, 0) * 100 /total_trips.total), 2) AS "2-Trips",
-    ROUND((COALESCE(trips.three, 0) * 100 /total_trips.total), 2) AS "3-Trips",
-    ROUND((COALESCE(trips.four, 0) * 100 /total_trips.total), 2) AS "4-Trips",
-    ROUND((COALESCE(trips.five, 0) * 100 /total_trips.total), 2) AS "5-Trips",
-    ROUND((COALESCE(trips.six, 0) * 100 /total_trips.total), 2) AS "6-Trips",
-    ROUND((COALESCE(trips.seven, 0) * 100 /total_trips.total), 2) AS "7-Trips",
-    ROUND((COALESCE(trips.eight, 0) * 100 /total_trips.total), 2) AS "8-Trips",
-    ROUND((COALESCE(trips.nine, 0) * 100 /total_trips.total), 2) AS "9-Trips",
-    ROUND((COALESCE(trips.ten, 0) * 100 /total_trips.total), 2) AS "10-Trips"
+    ROUND((trips.two * 100 /total_trips.total), 2) AS "2-Trips",
+    ROUND((trips.three * 100 /total_trips.total), 2) AS "3-Trips",
+    ROUND((trips.four * 100 /total_trips.total), 2) AS "4-Trips",
+    ROUND((trips.five * 100 /total_trips.total), 2) AS "5-Trips",
+    ROUND((trips.six * 100 /total_trips.total), 2) AS "6-Trips",
+    ROUND((trips.seven * 100 /total_trips.total), 2) AS "7-Trips",
+    ROUND((trips.eight * 100 /total_trips.total), 2) AS "8-Trips",
+    ROUND((trips.nine * 100 /total_trips.total), 2) AS "9-Trips",
+    ROUND((trips.ten * 100 /total_trips.total), 2) AS "10-Trips"
     
 FROM 
   trips_db.dim_city
@@ -277,8 +277,8 @@ SELECT
   unique_month.month_name AS highest_revenue_month,
     fare_month_city.fare AS revenue,
     CASE
-            WHEN COALESCE(fare_city.city_fare, 0) > 0 THEN 
-                ROUND((COALESCE(fare_month_city.fare, 0) * 100 / COALESCE(fare_city.city_fare, 0)), 2)
+            WHEN fare_city.city_fare > 0 THEN 
+                ROUND(fare_month_city.fare * 100 / fare_city.city_fare), 2)
             ELSE 
                 NULL
         END AS percentage_contribution
@@ -332,8 +332,8 @@ city_cte AS (
     SELECT
         dim_city.city_id AS city_id,
         CASE
-            WHEN COALESCE(SUM(fact_passenger_summary.total_passengers), 0) > 0 THEN 
-                ROUND((COALESCE(SUM(fact_passenger_summary.repeat_passengers), 0) * 100/ COALESCE(SUM(fact_passenger_summary.total_passengers), 0)), 2)
+            WHEN SUM(fact_passenger_summary.total_passengers) > 0 THEN 
+                ROUND((SUM(fact_passenger_summary.repeat_passengers) * 100/ SUM(fact_passenger_summary.total_passengers)), 2)
             ELSE 
                 NULL
         END AS city_RPR
@@ -351,8 +351,8 @@ detailed_data AS (
         fact_passenger_summary.total_passengers AS total_passengers,
         fact_passenger_summary.repeat_passengers AS repeat_passengers,
         CASE
-            WHEN COALESCE(fact_passenger_summary.total_passengers, 0) > 0 THEN 
-                ROUND((COALESCE(fact_passenger_summary.repeat_passengers, 0) * 100/ COALESCE(fact_passenger_summary.total_passengers, 0)), 2)
+            WHEN fact_passenger_summary.total_passengers > 0 THEN 
+                ROUND((fact_passenger_summary.repeat_passengers * 100/ fact_passenger_summary.total_passengers), 2)
             ELSE 
                 NULL
         END AS monthly_repeat_passenger_rate,
